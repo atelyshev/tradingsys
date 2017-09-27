@@ -1,0 +1,18 @@
+syntax = "proto3";
+package dto.proto;
+
+import "config.proto";
+
+message TradingSysConfig
+{
+    string output_dir = 1;
+    ApplicationConfig application_config = 2;
+    ComponentsConfig components_config = 3;
+    GrpcClientConfig client_config = 4;
+    GrpcServerConfig grpc_server_config = 5;
+    StartEndOfDayConfig sod_eod_config = 6;
+    ShutdownConfig shutdown_config = 7;
+    PingConfig ping_config = 8;
+    PongConfig pong_config = 9;
+}
+

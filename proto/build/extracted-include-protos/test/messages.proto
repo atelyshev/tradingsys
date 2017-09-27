@@ -1,0 +1,17 @@
+syntax = "proto3";
+package dto.proto;
+
+message PingMessage
+{
+    string send_text = 1;
+}
+
+message PongMessage
+{
+    string send_text = 1;
+}
+
+message StartOfDayMessage
+{
+    string time = 1;
+}
