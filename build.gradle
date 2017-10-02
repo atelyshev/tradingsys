@@ -1,5 +1,5 @@
-group 'trading'
-version '1.0-SNAPSHOT'
+//group 'trading'
+//version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 
