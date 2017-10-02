@@ -14,7 +14,7 @@ public class PingComponent extends AbstractComponent
         String cls = Messages.PingMessage.class.getCanonicalName();
         _ed.RegisterHandler(cls, new PingMessageEventHandler());
         cls = Messages.StartOfDayMessage.class.getCanonicalName();
-        _ed.RegisterHandler(cls, new PingComponent.StartOfDayEventHandler());
+        _ed.RegisterHandler(cls, new StartOfDayEventHandler());
     }
 
     public boolean Init(ConfigAccessor ca)

@@ -1,4 +1,4 @@
 rootProject.name = 'TradingSys'
-include 'components'
-include 'core'
 include 'proto'
+include 'core'
+include 'components'
