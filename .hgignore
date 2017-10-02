@@ -8,6 +8,7 @@ syntax: glob
 *.lock
 *.class
 *.jar
+*.xml
 # Ignore Visual Studio files
 *.obj
 *.exe

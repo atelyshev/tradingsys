@@ -3,9 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TradingSys.iml" filepath="$PROJECT_DIR$/TradingSys.iml" />
-      <module fileurl="file://$PROJECT_DIR$/components/components.iml" filepath="$PROJECT_DIR$/components/components.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/proto/proto.iml" filepath="$PROJECT_DIR$/proto/proto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TradingSys_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TradingSys_main.iml" group="TradingSys" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TradingSys_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TradingSys_test.iml" group="TradingSys" />
+      <module fileurl="file://$PROJECT_DIR$/components/components.iml" filepath="$PROJECT_DIR$/components/components.iml" group="components" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/components/components_main.iml" filepath="$PROJECT_DIR$/.idea/modules/components/components_main.iml" group="components" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/components/components_test.iml" filepath="$PROJECT_DIR$/.idea/modules/components/components_test.iml" group="components" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core_main.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core_test.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/proto/proto.iml" filepath="$PROJECT_DIR$/proto/proto.iml" group="proto" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/proto/proto_main.iml" filepath="$PROJECT_DIR$/.idea/modules/proto/proto_main.iml" group="proto" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/proto/proto_test.iml" filepath="$PROJECT_DIR$/.idea/modules/proto/proto_test.iml" group="proto" />
     </modules>
   </component>
 </project>
